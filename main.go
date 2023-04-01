@@ -20,7 +20,7 @@ func isErr(err error) bool {
 
 func main() {
 	if len(os.Args) != 3 {
-		fmt.Fprintf(os.Stderr, "usage: garwin <dll> <function>\n")
+		fmt.Fprintf(os.Stderr, "usage: garwin32 <dll> <function>\n")
 		os.Exit(-1)
 	}
 
